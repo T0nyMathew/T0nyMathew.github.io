@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TONY'S DOMAIN</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Entrance Page -->
+  <div id="entrance" class="entrance-screen">
+    <div class="entrance-content">
+      <h1 class="entrance-title">ENTER TONY'S DOMAIN</h1>
+      <button class="enter-btn" id="enterBtn">ENTER</button>
+    </div>
+  </div>
+
+  <!-- Main Website -->
+  <div id="mainSite" class="main-site hidden">
+    
+    <!-- Header -->
+    <header>
+      <div class="nav-pills">
+        <div class="pill" data-target="work">WORK EXP</div>
+        <div class="pill" data-target="skills">SKILLS</div>
+        <div class="pill" data-target="certifications">CERTIFICATIONS</div>
+        <div class="pill" data-target="achievements">ACHIEVEMENTS</div>
+        <div class="pill" data-target="resume">RESUME</div>
+      </div>
+    </header>
+
+    <!-- Tagline -->
+    <section class="tagline">
+      <h1>A BLUEPRINT OF WHO I'M BECOMING — NOT JUST WHAT I'VE DONE.</h1>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="profile" class="hero">
+      <div class="hero-content">
+        <div class="profile-pic">
+          <img src="https://via.placeholder.com/200" alt="Profile Picture">
+        </div>
+        <div class="vertical-divider"></div>
+        <div class="profile-description">
+          <p>
+            Hi, I'm Tony — a self-aware, resilient builder focused on recovery, reinvention, and relentless improvement. This site is my story in red and black.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sections -->
+    <section id="work" class="section">
+      <div class="section-label">WORK EXPERIENCE</div>
+      <p>Placeholder content for your work experience.</p>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-label">SKILLS</div>
+      <div class="skills-wrapper">
+        <div class="skills-block">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Communication</li>
+            <li>Time Management</li>
+            <li>Leadership</li>
+          </ul>
+        </div>
+        <div class="skills-block">
+          <h3>Hard Skills</h3>
+          <ul>
+            <li>Prompt Engineering</li>
+            <li>HTML/CSS</li>
+            <li>AI Tools</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="section-label">CERTIFICATIONS</div>
+      <div class="certifications-list">
+        <div class="cert-item">🎓 Project Management Certification (Google)</div>
+        <div class="cert-item">🎓 Data Analytics Certification (Google)</div>
+        <div class="cert-item">🎓 Communication Masterclass (Think School)</div>
+        <div class="cert-item">🎓 Digital Marketing Certification (Google)</div>
+        <div class="cert-item">🎓 Social Media Marketing (HubSpot)</div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="section-label">ACHIEVEMENTS</div>
+      <div class="achievements-list">
+        <div class="achievement-item">🏅 Event support at McKinsey’s Values Day</div>
+        <div class="achievement-item">🏅 Awarded for Ownership at Amazon</div>
+        <div class="achievement-item">🏅 Volunteered for blind aid & pet support initiatives</div>
+        <div class="achievement-item">🏅 Led sports house to victory as school captain</div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+      <div class="section-label">RESUME</div>
+      <div class="resume-buttons">
+        <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+        <a href="resume.pdf" target="_blank" class="resume-btn">View Resume</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Tony Mathew | Connect with me:</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/tony-mathew-tm747">LinkedIn</a>
+        <a href="https://github.com/T0nyMathew">GitHub</a>
+        <a href="https://medium.com/@tonymathew360">Medium</a>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
